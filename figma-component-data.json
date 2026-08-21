@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "generatedFrom": "05-assets/ui/button/button.stories.js",
+    "pilot": true,
+    "note": "Nur Default-Zustand, keine Hover/Disabled-Varianten (siehe ADR 0010)."
+  },
+  "components": {
+    "Button": {
+      "variantAxes": {
+        "Hierarchy": [
+          "Primary",
+          "Secondary",
+          "Ghost"
+        ],
+        "Size": [
+          "Medium",
+          "Small"
+        ]
+      },
+      "targetFrameName": "Generated from Code — Button",
+      "variants": [
+        {
+          "name": "Hierarchy=Primary, Size=Medium",
+          "props": {
+            "Hierarchy": "Primary",
+            "Size": "Medium"
+          },
+          "label": "Jetzt starten",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/4",
+            "gapVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/button"
+          },
+          "fillVar": "action/primary/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Jetzt starten",
+            "colorVar": "action/primary/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 700,
+            "fontStyleName": "Bold"
+          }
+        },
+        {
+          "name": "Hierarchy=Secondary, Size=Medium",
+          "props": {
+            "Hierarchy": "Secondary",
+            "Size": "Medium"
+          },
+          "label": "Jetzt starten",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/4",
+            "gapVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/button"
+          },
+          "fillVar": null,
+          "borderVar": "action/secondary/border",
+          "text": {
+            "content": "Jetzt starten",
+            "colorVar": "action/secondary/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 700,
+            "fontStyleName": "Bold"
+          }
+        },
+        {
+          "name": "Hierarchy=Ghost, Size=Medium",
+          "props": {
+            "Hierarchy": "Ghost",
+            "Size": "Medium"
+          },
+          "label": "Jetzt starten",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/4",
+            "gapVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/button"
+          },
+          "fillVar": null,
+          "borderVar": null,
+          "text": {
+            "content": "Jetzt starten",
+            "colorVar": "action/ghost/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 700,
+            "fontStyleName": "Bold"
+          }
+        },
+        {
+          "name": "Hierarchy=Primary, Size=Small",
+          "props": {
+            "Hierarchy": "Primary",
+            "Size": "Small"
+          },
+          "label": "Jetzt starten",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "gapVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/button"
+          },
+          "fillVar": "action/primary/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Jetzt starten",
+            "colorVar": "action/primary/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 700,
+            "fontStyleName": "Bold"
+          }
+        },
+        {
+          "name": "Hierarchy=Secondary, Size=Small",
+          "props": {
+            "Hierarchy": "Secondary",
+            "Size": "Small"
+          },
+          "label": "Jetzt starten",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "gapVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/button"
+          },
+          "fillVar": null,
+          "borderVar": "action/secondary/border",
+          "text": {
+            "content": "Jetzt starten",
+            "colorVar": "action/secondary/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 700,
+            "fontStyleName": "Bold"
+          }
+        },
+        {
+          "name": "Hierarchy=Ghost, Size=Small",
+          "props": {
+            "Hierarchy": "Ghost",
+            "Size": "Small"
+          },
+          "label": "Jetzt starten",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "gapVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/button"
+          },
+          "fillVar": null,
+          "borderVar": null,
+          "text": {
+            "content": "Jetzt starten",
+            "colorVar": "action/ghost/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 700,
+            "fontStyleName": "Bold"
+          }
+        }
+      ]
+    }
+  }
+}
