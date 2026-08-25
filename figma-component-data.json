@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedFrom": "05-assets/ui/button/button.stories.js",
+    "generatedFrom": "05-assets/ui/button/button.js",
     "pilot": true,
     "note": "Nur Default-Zustand, keine Hover/Disabled-Varianten (siehe ADR 0010)."
   },
