@@ -9,7 +9,8 @@
       "variantAxes": {
         "Hierarchy": [
           "Primary",
-          "Secondary",
+          "Neutral",
+          "Outline",
           "Ghost"
         ],
         "Size": [
@@ -44,9 +45,33 @@
           }
         },
         {
-          "name": "Hierarchy=Secondary, Size=Medium",
+          "name": "Hierarchy=Neutral, Size=Medium",
           "props": {
-            "Hierarchy": "Secondary",
+            "Hierarchy": "Neutral",
+            "Size": "Medium"
+          },
+          "label": "Jetzt starten",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/4",
+            "gapVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/button"
+          },
+          "fillVar": "action/neutral/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Jetzt starten",
+            "colorVar": "action/neutral/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 700,
+            "fontStyleName": "Bold"
+          }
+        },
+        {
+          "name": "Hierarchy=Outline, Size=Medium",
+          "props": {
+            "Hierarchy": "Outline",
             "Size": "Medium"
           },
           "label": "Jetzt starten",
@@ -116,9 +141,33 @@
           }
         },
         {
-          "name": "Hierarchy=Secondary, Size=Small",
+          "name": "Hierarchy=Neutral, Size=Small",
           "props": {
-            "Hierarchy": "Secondary",
+            "Hierarchy": "Neutral",
+            "Size": "Small"
+          },
+          "label": "Jetzt starten",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "gapVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/button"
+          },
+          "fillVar": "action/neutral/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Jetzt starten",
+            "colorVar": "action/neutral/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 700,
+            "fontStyleName": "Bold"
+          }
+        },
+        {
+          "name": "Hierarchy=Outline, Size=Small",
+          "props": {
+            "Hierarchy": "Outline",
             "Size": "Small"
           },
           "label": "Jetzt starten",
