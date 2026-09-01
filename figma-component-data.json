@@ -1,7 +1,10 @@
 {
   "meta": {
-    "generatedFrom": "05-assets/ui/button/button.js",
-    "pilot": true,
+    "generatedFrom": [
+      "05-assets/ui/button/button.js",
+      "05-assets/ui/pill/pill.js",
+      "05-assets/ui/typography/overline.js"
+    ],
     "note": "Nur Default-Zustand, keine Hover/Disabled-Varianten (siehe ADR 0010)."
   },
   "components": {
@@ -18,6 +21,12 @@
           "Small"
         ]
       },
+      "gridRowProps": [
+        "Hierarchy"
+      ],
+      "gridColProps": [
+        "Size"
+      ],
       "targetFrameName": "Generated from Code — Button",
       "variants": [
         {
@@ -41,7 +50,10 @@
             "fontSizeVar": "font/size/m",
             "fontFamily": "Hero",
             "fontWeight": 700,
-            "fontStyleName": "Bold"
+            "fontStyleName": "Bold",
+            "textCase": "ORIGINAL",
+            "letterSpacingPercent": 0,
+            "lineHeightPercent": null
           }
         },
         {
@@ -65,7 +77,10 @@
             "fontSizeVar": "font/size/m",
             "fontFamily": "Hero",
             "fontWeight": 700,
-            "fontStyleName": "Bold"
+            "fontStyleName": "Bold",
+            "textCase": "ORIGINAL",
+            "letterSpacingPercent": 0,
+            "lineHeightPercent": null
           }
         },
         {
@@ -89,7 +104,10 @@
             "fontSizeVar": "font/size/m",
             "fontFamily": "Hero",
             "fontWeight": 700,
-            "fontStyleName": "Bold"
+            "fontStyleName": "Bold",
+            "textCase": "ORIGINAL",
+            "letterSpacingPercent": 0,
+            "lineHeightPercent": null
           }
         },
         {
@@ -113,7 +131,10 @@
             "fontSizeVar": "font/size/m",
             "fontFamily": "Hero",
             "fontWeight": 700,
-            "fontStyleName": "Bold"
+            "fontStyleName": "Bold",
+            "textCase": "ORIGINAL",
+            "letterSpacingPercent": 0,
+            "lineHeightPercent": null
           }
         },
         {
@@ -137,7 +158,10 @@
             "fontSizeVar": "font/size/s",
             "fontFamily": "Hero",
             "fontWeight": 700,
-            "fontStyleName": "Bold"
+            "fontStyleName": "Bold",
+            "textCase": "ORIGINAL",
+            "letterSpacingPercent": 0,
+            "lineHeightPercent": null
           }
         },
         {
@@ -161,7 +185,10 @@
             "fontSizeVar": "font/size/s",
             "fontFamily": "Hero",
             "fontWeight": 700,
-            "fontStyleName": "Bold"
+            "fontStyleName": "Bold",
+            "textCase": "ORIGINAL",
+            "letterSpacingPercent": 0,
+            "lineHeightPercent": null
           }
         },
         {
@@ -185,7 +212,10 @@
             "fontSizeVar": "font/size/s",
             "fontFamily": "Hero",
             "fontWeight": 700,
-            "fontStyleName": "Bold"
+            "fontStyleName": "Bold",
+            "textCase": "ORIGINAL",
+            "letterSpacingPercent": 0,
+            "lineHeightPercent": null
           }
         },
         {
@@ -209,10 +239,955 @@
             "fontSizeVar": "font/size/s",
             "fontFamily": "Hero",
             "fontWeight": 700,
-            "fontStyleName": "Bold"
+            "fontStyleName": "Bold",
+            "textCase": "ORIGINAL",
+            "letterSpacingPercent": 0,
+            "lineHeightPercent": null
           }
         }
       ]
+    },
+    "Pill": {
+      "variantAxes": {
+        "Variant": [
+          "Filled",
+          "Outlined"
+        ],
+        "Color": [
+          "Default",
+          "Neutral",
+          "Accent",
+          "OnEmphasisAccent",
+          "OnEmphasisWarm",
+          "New",
+          "AI"
+        ],
+        "Size": [
+          "Small",
+          "Medium",
+          "Large"
+        ]
+      },
+      "gridRowProps": [
+        "Variant",
+        "Color"
+      ],
+      "gridColProps": [
+        "Size"
+      ],
+      "targetFrameName": "Generated from Code — Pill",
+      "variants": [
+        {
+          "name": "Variant=Filled, Color=Default, Size=Small",
+          "props": {
+            "Variant": "Filled",
+            "Color": "Default",
+            "Size": "Small"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "background/inverse",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "foreground/onInverse",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=Neutral, Size=Small",
+          "props": {
+            "Variant": "Filled",
+            "Color": "Neutral",
+            "Size": "Small"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "action/neutral/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "action/neutral/text",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=Accent, Size=Small",
+          "props": {
+            "Variant": "Filled",
+            "Color": "Accent",
+            "Size": "Small"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "highlight/accentFill/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "highlight/accentFill/text",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=OnEmphasisAccent, Size=Small",
+          "props": {
+            "Variant": "Filled",
+            "Color": "OnEmphasisAccent",
+            "Size": "Small"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "emphasis/accent/inverse/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/accent/inverse/text",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=OnEmphasisWarm, Size=Small",
+          "props": {
+            "Variant": "Filled",
+            "Color": "OnEmphasisWarm",
+            "Size": "Small"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "emphasis/warm/inverse/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/warm/inverse/text",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=New, Size=Small",
+          "props": {
+            "Variant": "Filled",
+            "Color": "New",
+            "Size": "Small"
+          },
+          "label": "NEU",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "highlight/new/bg",
+          "borderVar": null,
+          "text": {
+            "content": "NEU",
+            "colorVar": "highlight/new/text",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=AI, Size=Small",
+          "props": {
+            "Variant": "Filled",
+            "Color": "AI",
+            "Size": "Small"
+          },
+          "label": "AI",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "highlight/ai/bg",
+          "borderVar": null,
+          "text": {
+            "content": "AI",
+            "colorVar": "highlight/ai/text",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=Default, Size=Small",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "Default",
+            "Size": "Small"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "action/secondary/border",
+          "text": {
+            "content": "Category",
+            "colorVar": "action/secondary/text",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=Accent, Size=Small",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "Accent",
+            "Size": "Small"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "border/accent",
+          "text": {
+            "content": "Category",
+            "colorVar": "foreground/accent",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=OnEmphasisAccent, Size=Small",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "OnEmphasisAccent",
+            "Size": "Small"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "emphasis/accent/border",
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/accent/text",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=OnEmphasisWarm, Size=Small",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "OnEmphasisWarm",
+            "Size": "Small"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/2",
+            "paddingYVar": "spacing/1",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "emphasis/warm/border",
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/warm/text",
+            "fontSizeVar": "font/size/xs",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=Default, Size=Medium",
+          "props": {
+            "Variant": "Filled",
+            "Color": "Default",
+            "Size": "Medium"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "background/inverse",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "foreground/onInverse",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=Neutral, Size=Medium",
+          "props": {
+            "Variant": "Filled",
+            "Color": "Neutral",
+            "Size": "Medium"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "action/neutral/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "action/neutral/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=Accent, Size=Medium",
+          "props": {
+            "Variant": "Filled",
+            "Color": "Accent",
+            "Size": "Medium"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "highlight/accentFill/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "highlight/accentFill/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=OnEmphasisAccent, Size=Medium",
+          "props": {
+            "Variant": "Filled",
+            "Color": "OnEmphasisAccent",
+            "Size": "Medium"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "emphasis/accent/inverse/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/accent/inverse/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=OnEmphasisWarm, Size=Medium",
+          "props": {
+            "Variant": "Filled",
+            "Color": "OnEmphasisWarm",
+            "Size": "Medium"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "emphasis/warm/inverse/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/warm/inverse/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=New, Size=Medium",
+          "props": {
+            "Variant": "Filled",
+            "Color": "New",
+            "Size": "Medium"
+          },
+          "label": "NEU",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "highlight/new/bg",
+          "borderVar": null,
+          "text": {
+            "content": "NEU",
+            "colorVar": "highlight/new/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=AI, Size=Medium",
+          "props": {
+            "Variant": "Filled",
+            "Color": "AI",
+            "Size": "Medium"
+          },
+          "label": "AI",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "highlight/ai/bg",
+          "borderVar": null,
+          "text": {
+            "content": "AI",
+            "colorVar": "highlight/ai/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=Default, Size=Medium",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "Default",
+            "Size": "Medium"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "action/secondary/border",
+          "text": {
+            "content": "Category",
+            "colorVar": "action/secondary/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=Accent, Size=Medium",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "Accent",
+            "Size": "Medium"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "border/accent",
+          "text": {
+            "content": "Category",
+            "colorVar": "foreground/accent",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=OnEmphasisAccent, Size=Medium",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "OnEmphasisAccent",
+            "Size": "Medium"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "emphasis/accent/border",
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/accent/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=OnEmphasisWarm, Size=Medium",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "OnEmphasisWarm",
+            "Size": "Medium"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/4",
+            "paddingYVar": "spacing/2",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "emphasis/warm/border",
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/warm/text",
+            "fontSizeVar": "font/size/s",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=Default, Size=Large",
+          "props": {
+            "Variant": "Filled",
+            "Color": "Default",
+            "Size": "Large"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "background/inverse",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "foreground/onInverse",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=Neutral, Size=Large",
+          "props": {
+            "Variant": "Filled",
+            "Color": "Neutral",
+            "Size": "Large"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "action/neutral/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "action/neutral/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=Accent, Size=Large",
+          "props": {
+            "Variant": "Filled",
+            "Color": "Accent",
+            "Size": "Large"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "highlight/accentFill/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "highlight/accentFill/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=OnEmphasisAccent, Size=Large",
+          "props": {
+            "Variant": "Filled",
+            "Color": "OnEmphasisAccent",
+            "Size": "Large"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "emphasis/accent/inverse/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/accent/inverse/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=OnEmphasisWarm, Size=Large",
+          "props": {
+            "Variant": "Filled",
+            "Color": "OnEmphasisWarm",
+            "Size": "Large"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "emphasis/warm/inverse/bg",
+          "borderVar": null,
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/warm/inverse/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=New, Size=Large",
+          "props": {
+            "Variant": "Filled",
+            "Color": "New",
+            "Size": "Large"
+          },
+          "label": "NEU",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "highlight/new/bg",
+          "borderVar": null,
+          "text": {
+            "content": "NEU",
+            "colorVar": "highlight/new/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Filled, Color=AI, Size=Large",
+          "props": {
+            "Variant": "Filled",
+            "Color": "AI",
+            "Size": "Large"
+          },
+          "label": "AI",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": "highlight/ai/bg",
+          "borderVar": null,
+          "text": {
+            "content": "AI",
+            "colorVar": "highlight/ai/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=Default, Size=Large",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "Default",
+            "Size": "Large"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "action/secondary/border",
+          "text": {
+            "content": "Category",
+            "colorVar": "action/secondary/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=Accent, Size=Large",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "Accent",
+            "Size": "Large"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "border/accent",
+          "text": {
+            "content": "Category",
+            "colorVar": "foreground/accent",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=OnEmphasisAccent, Size=Large",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "OnEmphasisAccent",
+            "Size": "Large"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "emphasis/accent/border",
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/accent/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        },
+        {
+          "name": "Variant=Outlined, Color=OnEmphasisWarm, Size=Large",
+          "props": {
+            "Variant": "Outlined",
+            "Color": "OnEmphasisWarm",
+            "Size": "Large"
+          },
+          "label": "Category",
+          "layout": {
+            "paddingXVar": "spacing/6",
+            "paddingYVar": "spacing/3",
+            "cornerRadiusVar": "border/radius/rounded"
+          },
+          "fillVar": null,
+          "borderVar": "emphasis/warm/border",
+          "text": {
+            "content": "Category",
+            "colorVar": "emphasis/warm/text",
+            "fontSizeVar": "font/size/m",
+            "fontFamily": "Hero",
+            "fontWeight": 400,
+            "fontStyleName": "Regular",
+            "textCase": "UPPER",
+            "letterSpacingPercent": 10,
+            "lineHeightPercent": 120
+          }
+        }
+      ],
+      "knownGaps": [
+        "Kein synchter Figma-Text-Style \"Overline XS\" (nur S/M) — betrifft ADR 0007, nicht diesen Generator direkt."
+      ]
     }
-  }
+  },
+  "unsupported": [
+    "Callout Card",
+    "Card",
+    "Content Box",
+    "Data Bar",
+    "Dropdown",
+    "Eyebrow",
+    "Feature Bubble",
+    "Icon",
+    "Input",
+    "Product Card",
+    "Product UI Card",
+    "Segmented Control",
+    "Table",
+    "Text Link"
+  ]
 }
