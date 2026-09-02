@@ -1175,6 +1175,7 @@
     }
   },
   "unsupported": [
+    "Accordion",
     "Callout Card",
     "Card",
     "Content Box",
