@@ -1176,8 +1176,8 @@
   },
   "unsupported": [
     "Accordion",
-    "Callout Card",
     "Card",
+    "Checkbox",
     "Content Box",
     "Data Bar",
     "Dropdown",
@@ -1185,8 +1185,6 @@
     "Feature Bubble",
     "Icon",
     "Input",
-    "Product Card",
-    "Product UI Card",
     "Segmented Control",
     "Table",
     "Text Link"
