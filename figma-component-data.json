@@ -1176,10 +1176,12 @@
   },
   "unsupported": [
     "Accordion",
+    "Breadcrumb",
     "Card",
     "Checkbox",
     "Content Box",
     "Data Bar",
+    "Divider",
     "Dropdown",
     "Eyebrow",
     "Icon",
