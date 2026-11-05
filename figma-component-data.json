@@ -989,7 +989,7 @@
                 "kind": "rect",
                 "name": "Bild (Platzhalter)",
                 "aspectRatio": 1.25,
-                "fillVar": "background/tertiary"
+                "fillVar": "color/gray/300"
               }
             ]
           }
@@ -1058,7 +1058,7 @@
                         "kind": "ellipse",
                         "name": "Avatar (Platzhalter)",
                         "size": 48,
-                        "fillVar": "background/tertiary"
+                        "fillVar": "color/gray/300"
                       },
                       {
                         "kind": "frame",
@@ -1320,7 +1320,7 @@
                 "kind": "rect",
                 "name": "Bild (Platzhalter)",
                 "aspectRatio": 1.25,
-                "fillVar": "background/tertiary"
+                "fillVar": "color/gray/300"
               }
             ]
           }
@@ -1389,7 +1389,7 @@
                         "kind": "ellipse",
                         "name": "Avatar (Platzhalter)",
                         "size": 48,
-                        "fillVar": "background/tertiary"
+                        "fillVar": "color/gray/300"
                       },
                       {
                         "kind": "frame",
@@ -1651,7 +1651,7 @@
                 "kind": "rect",
                 "name": "Bild (Platzhalter)",
                 "aspectRatio": 1.25,
-                "fillVar": "background/tertiary"
+                "fillVar": "color/gray/300"
               }
             ]
           }
@@ -1720,7 +1720,7 @@
                         "kind": "ellipse",
                         "name": "Avatar (Platzhalter)",
                         "size": 48,
-                        "fillVar": "background/tertiary"
+                        "fillVar": "color/gray/300"
                       },
                       {
                         "kind": "frame",
@@ -1889,7 +1889,7 @@
       ],
       "knownGaps": [
         "Font-Awesome-Glyphen setzen die lokal installierte Schrift \"Font Awesome 7 Pro\" (Icon, Regular) bzw. \"Font Awesome 7 Sharp\" (Sterne, Solid) voraus \u2014 fehlt sie auf dem Rechner, meldet das Plugin einen Fehler und die Glyphen fehlen.",
-        "Media-Bild und Quote-Avatar sind graue Platzhalter-Formen (background/tertiary), keine echten Fotos.",
+        "Media-Bild und Quote-Avatar sind graue Platzhalter-Formen (Core color/gray/300), keine echten Fotos.",
         "Breite fix 340px (Solo-Preview-Breite aus card.stories.js), Padding 32px = Desktop-Ende des Clamps (clamp(24px, 4vw, 32px)). Media-Card nur im umgebrochenen Layout (Text oben, Bild unten, 5:4).",
         "Quote-Text nutzt Body L mit lokal \u00fcberschriebener Zeilenh\u00f6he 140% (card.js: line-height 1.4); Body-Bold-Schnitte (Autor-Name, KPI-Label) sind lokale Overrides auf den Body-Styles."
       ]
@@ -1936,7 +1936,7 @@
                     "counterAlign": "CENTER",
                     "sizing": "FILL",
                     "minHeight": 200,
-                    "fillVar": "background/tertiary",
+                    "fillVar": "color/gray/300",
                     "radiusVar": "border/radius/card",
                     "children": [
                       {
@@ -1986,7 +1986,7 @@
                     "counterAlign": "CENTER",
                     "sizing": "FILL",
                     "minHeight": 200,
-                    "fillVar": "background/tertiary",
+                    "fillVar": "color/gray/300",
                     "radiusVar": "border/radius/card",
                     "children": [
                       {
@@ -2036,7 +2036,7 @@
                     "counterAlign": "CENTER",
                     "sizing": "FILL",
                     "minHeight": 200,
-                    "fillVar": "background/tertiary",
+                    "fillVar": "color/gray/300",
                     "radiusVar": "border/radius/card",
                     "children": [
                       {
@@ -2173,7 +2173,7 @@
                         "counterAlign": "CENTER",
                         "sizing": "FILL",
                         "minHeight": 200,
-                        "fillVar": "background/tertiary",
+                        "fillVar": "color/gray/300",
                         "radiusVar": "border/radius/card",
                         "children": [
                           {
@@ -2287,7 +2287,7 @@
                         "counterAlign": "CENTER",
                         "sizing": "FILL",
                         "minHeight": 200,
-                        "fillVar": "background/tertiary",
+                        "fillVar": "color/gray/300",
                         "radiusVar": "border/radius/card",
                         "children": [
                           {
@@ -2347,7 +2347,7 @@
                         "counterAlign": "CENTER",
                         "sizing": "FILL",
                         "minHeight": 200,
-                        "fillVar": "background/tertiary",
+                        "fillVar": "color/gray/300",
                         "radiusVar": "border/radius/card",
                         "children": [
                           {
@@ -2407,7 +2407,7 @@
                         "counterAlign": "CENTER",
                         "sizing": "FILL",
                         "minHeight": 200,
-                        "fillVar": "background/tertiary",
+                        "fillVar": "color/gray/300",
                         "radiusVar": "border/radius/card",
                         "children": [
                           {
@@ -2486,7 +2486,7 @@
                     "counterAlign": "CENTER",
                     "sizing": "FILL",
                     "minHeight": 200,
-                    "fillVar": "background/tertiary",
+                    "fillVar": "color/gray/300",
                     "radiusVar": "border/radius/card",
                     "children": [
                       {
@@ -2593,7 +2593,7 @@
                                   141,
                                   94
                                 ],
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               }
                             ]
                           },
@@ -2616,7 +2616,7 @@
                                   141,
                                   94
                                 ],
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               }
                             ]
                           },
@@ -2639,7 +2639,7 @@
                                   141,
                                   94
                                 ],
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               }
                             ]
                           },
@@ -2662,7 +2662,7 @@
                                   141,
                                   94
                                 ],
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               }
                             ]
                           },
@@ -2685,7 +2685,7 @@
                                   141,
                                   94
                                 ],
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               }
                             ]
                           }
@@ -3225,7 +3225,7 @@
                           562.5,
                           450
                         ],
-                        "fillVar": "background/tertiary"
+                        "fillVar": "color/gray/300"
                       }
                     ]
                   }
@@ -3359,7 +3359,7 @@
                           562.5,
                           450
                         ],
-                        "fillVar": "background/tertiary"
+                        "fillVar": "color/gray/300"
                       }
                     ]
                   }
@@ -3907,7 +3907,7 @@
       ],
       "knownGaps": [
         "Desktop-Ansicht (Compact-Widget mit Media rechts ab xl, Split nebeneinander ab lg); Mobile-Umbr\u00fcche sind CSS. Compact nur mit Media (showMedia=true), Media ist ein graues Platzhalter-Rechteck.",
-        "Widget-Fl\u00e4che ist ein Frame im Surface-Modus Accent bzw. Warm (ADR 0024; im Code data-mode) und bindet background/primary, foreground/primary und den normalen Primary-Button; Quote-Widget nutzt background/inverse + foreground/onInverse (im Code data-mode auto-inverse). Split: zweites Widget ist die Outline-Variante mit Outlined-Button. Max-H\u00f6he 300px des Splits ist nicht abgebildet."
+        "Widget-Fl\u00e4che ist ein Frame im Surface-Modus Accent bzw. Warm (ADR 0024; im Code data-mode) und bindet background/primary, foreground/primary und den normalen Primary-Button; Quote-Widget nutzt background/inverse + foreground/onInverse (im Code data-mode auto-inverse). Split: zweites Widget ist die Outline-Variante mit Outlined-Button. Max-H\u00f6he 300px des Splits ist nicht abgebildet. Die Widget-Box steht nur in Light- oder Dark-Sections, nie auf Gelb oder Clay (Spec cta-widget, Regel ground, 05.11.26); der Zielrahmen ist im Modus Light."
       ]
     },
     "Story-Grid": {
@@ -4167,7 +4167,7 @@
                                             "kind": "rect",
                                             "name": "Bild (Platzhalter, 16:9)",
                                             "fixedHeight": 234,
-                                            "fillVar": "background/tertiary"
+                                            "fillVar": "color/gray/300"
                                           },
                                           {
                                             "kind": "frame",
@@ -4219,7 +4219,7 @@
                                             "kind": "rect",
                                             "name": "Bild (Platzhalter, 16:9)",
                                             "fixedHeight": 234,
-                                            "fillVar": "background/tertiary"
+                                            "fillVar": "color/gray/300"
                                           },
                                           {
                                             "kind": "frame",
@@ -4271,7 +4271,7 @@
                                             "kind": "rect",
                                             "name": "Bild (Platzhalter, 16:9)",
                                             "fixedHeight": 234,
-                                            "fillVar": "background/tertiary"
+                                            "fillVar": "color/gray/300"
                                           },
                                           {
                                             "kind": "frame",
@@ -4332,7 +4332,7 @@
                                             "kind": "rect",
                                             "name": "Bild (Platzhalter, 16:9)",
                                             "fixedHeight": 234,
-                                            "fillVar": "background/tertiary"
+                                            "fillVar": "color/gray/300"
                                           },
                                           {
                                             "kind": "frame",
@@ -4384,7 +4384,7 @@
                                             "kind": "rect",
                                             "name": "Bild (Platzhalter, 16:9)",
                                             "fixedHeight": 234,
-                                            "fillVar": "background/tertiary"
+                                            "fillVar": "color/gray/300"
                                           },
                                           {
                                             "kind": "frame",
@@ -4436,7 +4436,7 @@
                                             "kind": "rect",
                                             "name": "Bild (Platzhalter, 16:9)",
                                             "fixedHeight": 234,
-                                            "fillVar": "background/tertiary"
+                                            "fillVar": "color/gray/300"
                                           },
                                           {
                                             "kind": "frame",
@@ -4706,7 +4706,7 @@
                         "name": "Media (Platzhalter, 1:1)",
                         "fixedHeight": 592,
                         "radiusVar": "border/radius/card",
-                        "fillVar": "background/tertiary"
+                        "fillVar": "color/gray/300"
                       }
                     ]
                   }
@@ -4850,7 +4850,7 @@
                         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"900\" height=\"1125\" viewBox=\"0 0 900 1125\"><path d=\"M637.684 94.366L654.736 177.958L654.968 179.093L656.056 178.698L701.649 162.215L796.79 264.656L884.276 578.779L885.576 870.455L312.301 1084.637L260.943 1028.254L242.519 946.796L242.266 945.678L241.193 946.08L199.303 961.772L103.667 856.946L16.438 543.598L13.876 254.697L587.049 40.207L637.684 94.366Z\" fill=\"#000000\"/></svg>",
                         "width": 592,
                         "height": 740,
-                        "fillVar": "background/tertiary"
+                        "fillVar": "color/gray/300"
                       }
                     ]
                   }
@@ -4994,7 +4994,7 @@
                         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"900\" height=\"1125\" viewBox=\"0 0 900 1125\"><path d=\"M885.573 254.697L883.011 543.598L795.782 856.946L700.146 961.772L658.257 946.08L657.183 945.678L656.931 946.796L638.506 1028.254L587.148 1084.637L13.873 870.455L15.173 578.779L102.66 264.654L197.8 162.215L243.394 178.698L244.482 179.093L244.714 177.958L261.765 94.364L312.399 40.207L885.573 254.697Z\" fill=\"#000000\"/></svg>",
                         "width": 592,
                         "height": 740,
-                        "fillVar": "background/tertiary"
+                        "fillVar": "color/gray/300"
                       }
                     ]
                   }
@@ -5138,7 +5138,7 @@
                         "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"900\" height=\"1125\" viewBox=\"0 0 900 1125\"><path d=\"M828.827 179.334L845.6 251.554L818.571 332.473L818.204 333.571L819.343 333.774L867.071 342.295L898.244 478.58L816.946 794.369L672.237 1047.612L68.675 946.461L52.388 871.954L77.162 792.196L77.502 791.102L76.371 790.914L32.246 783.558L1.837 644.96L82.968 329.979L225.2 78.502L828.827 179.334Z\" fill=\"#000000\"/></svg>",
                         "width": 592,
                         "height": 740,
-                        "fillVar": "background/tertiary"
+                        "fillVar": "color/gray/300"
                       }
                     ]
                   }
@@ -5285,7 +5285,7 @@
                         "name": "Media (Platzhalter, 16:9)",
                         "fixedHeight": 720,
                         "radiusVar": "border/radius/card",
-                        "fillVar": "background/tertiary"
+                        "fillVar": "color/gray/300"
                       }
                     ]
                   }
@@ -11596,7 +11596,7 @@
                                         "kind": "ellipse",
                                         "name": "Avatar (Platzhalter)",
                                         "size": 48,
-                                        "fillVar": "background/tertiary"
+                                        "fillVar": "color/gray/300"
                                       },
                                       {
                                         "kind": "frame",
@@ -11694,7 +11694,7 @@
                                         "kind": "ellipse",
                                         "name": "Avatar (Platzhalter)",
                                         "size": 48,
-                                        "fillVar": "background/tertiary"
+                                        "fillVar": "color/gray/300"
                                       },
                                       {
                                         "kind": "frame",
@@ -11792,7 +11792,7 @@
                                         "kind": "ellipse",
                                         "name": "Avatar (Platzhalter)",
                                         "size": 48,
-                                        "fillVar": "background/tertiary"
+                                        "fillVar": "color/gray/300"
                                       },
                                       {
                                         "kind": "frame",
@@ -11890,7 +11890,7 @@
                                         "kind": "ellipse",
                                         "name": "Avatar (Platzhalter)",
                                         "size": 48,
-                                        "fillVar": "background/tertiary"
+                                        "fillVar": "color/gray/300"
                                       },
                                       {
                                         "kind": "frame",
@@ -12467,7 +12467,7 @@
                                 "kind": "rect",
                                 "name": "Bild (Platzhalter, 16:9)",
                                 "fixedHeight": 234,
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               },
                               {
                                 "kind": "frame",
@@ -12519,7 +12519,7 @@
                                 "kind": "rect",
                                 "name": "Bild (Platzhalter, 16:9)",
                                 "fixedHeight": 234,
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               },
                               {
                                 "kind": "frame",
@@ -12571,7 +12571,7 @@
                                 "kind": "rect",
                                 "name": "Bild (Platzhalter, 16:9)",
                                 "fixedHeight": 234,
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               },
                               {
                                 "kind": "frame",
@@ -12666,7 +12666,7 @@
                                 "kind": "rect",
                                 "name": "Bild (Platzhalter, 16:9)",
                                 "fixedHeight": 234,
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               },
                               {
                                 "kind": "frame",
@@ -12718,7 +12718,7 @@
                                 "kind": "rect",
                                 "name": "Bild (Platzhalter, 16:9)",
                                 "fixedHeight": 234,
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               },
                               {
                                 "kind": "frame",
@@ -12770,7 +12770,7 @@
                                 "kind": "rect",
                                 "name": "Bild (Platzhalter, 16:9)",
                                 "fixedHeight": 234,
-                                "fillVar": "background/tertiary"
+                                "fillVar": "color/gray/300"
                               },
                               {
                                 "kind": "frame",
