@@ -3127,9 +3127,10 @@
                     "dir": "HORIZONTAL",
                     "sizing": "FILL",
                     "minHeight": 450,
-                    "fillVar": "emphasis/accent/bg",
+                    "fillVar": "background/primary",
                     "radiusVar": "border/radius/card",
                     "clip": true,
+                    "mode": "Accent",
                     "children": [
                       {
                         "kind": "frame",
@@ -3163,7 +3164,7 @@
                                     "styleFontStyleName": "Extrabold",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "emphasis/accent/text",
+                                    "colorVar": "foreground/primary",
                                     "fontSizeVar": "font/size/5xl",
                                     "sizing": "FILL"
                                   },
@@ -3175,7 +3176,7 @@
                                     "styleFontStyleName": "Regular",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "emphasis/accent/text",
+                                    "colorVar": "foreground/primary",
                                     "fontSizeVar": "font/size/xl",
                                     "sizing": "FILL"
                                   }
@@ -3197,11 +3198,11 @@
                                     "gapVar": "spacing/2",
                                     "cornerRadiusVar": "border/radius/button"
                                   },
-                                  "fillVar": "emphasis/accent/inverse/bg",
+                                  "fillVar": "action/primary/bg",
                                   "borderVar": null,
                                   "text": {
                                     "content": "Jetzt testen",
-                                    "colorVar": "emphasis/accent/inverse/text",
+                                    "colorVar": "action/primary/text",
                                     "fontSizeVar": "font/size/m",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -3260,9 +3261,10 @@
                     "dir": "HORIZONTAL",
                     "sizing": "FILL",
                     "minHeight": 450,
-                    "fillVar": "emphasis/warm/bg",
+                    "fillVar": "background/primary",
                     "radiusVar": "border/radius/card",
                     "clip": true,
+                    "mode": "Warm",
                     "children": [
                       {
                         "kind": "frame",
@@ -3296,7 +3298,7 @@
                                     "styleFontStyleName": "Extrabold",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "emphasis/warm/text",
+                                    "colorVar": "foreground/primary",
                                     "fontSizeVar": "font/size/5xl",
                                     "sizing": "FILL"
                                   },
@@ -3308,7 +3310,7 @@
                                     "styleFontStyleName": "Regular",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "emphasis/warm/text",
+                                    "colorVar": "foreground/primary",
                                     "fontSizeVar": "font/size/xl",
                                     "sizing": "FILL"
                                   }
@@ -3330,11 +3332,11 @@
                                     "gapVar": "spacing/2",
                                     "cornerRadiusVar": "border/radius/button"
                                   },
-                                  "fillVar": "emphasis/warm/inverse/bg",
+                                  "fillVar": "action/primary/bg",
                                   "borderVar": null,
                                   "text": {
                                     "content": "Jetzt testen",
-                                    "colorVar": "emphasis/warm/inverse/text",
+                                    "colorVar": "action/primary/text",
                                     "fontSizeVar": "font/size/m",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -3404,8 +3406,9 @@
                         "paddingYVar": "spacing/16",
                         "radiusVar": "border/radius/card",
                         "clip": true,
-                        "fillVar": "emphasis/accent/bg",
+                        "fillVar": "background/primary",
                         "strokeVar": null,
+                        "mode": "Accent",
                         "children": [
                           {
                             "kind": "frame",
@@ -3429,7 +3432,7 @@
                                     "styleFontStyleName": "Bold",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "emphasis/accent/text",
+                                    "colorVar": "foreground/primary",
                                     "fontSizeVar": "font/size/3xl",
                                     "sizing": "FILL"
                                   },
@@ -3441,7 +3444,7 @@
                                     "styleFontStyleName": "Regular",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "emphasis/accent/text",
+                                    "colorVar": "foreground/primary",
                                     "fontSizeVar": "font/size/l",
                                     "sizing": "FILL"
                                   }
@@ -3463,11 +3466,11 @@
                                     "gapVar": "spacing/2",
                                     "cornerRadiusVar": "border/radius/button"
                                   },
-                                  "fillVar": "emphasis/accent/inverse/bg",
+                                  "fillVar": "action/primary/bg",
                                   "borderVar": null,
                                   "text": {
                                     "content": "Jetzt testen",
-                                    "colorVar": "emphasis/accent/inverse/text",
+                                    "colorVar": "action/primary/text",
                                     "fontSizeVar": "font/size/s",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -3617,8 +3620,9 @@
                         "paddingYVar": "spacing/16",
                         "radiusVar": "border/radius/card",
                         "clip": true,
-                        "fillVar": "emphasis/warm/bg",
+                        "fillVar": "background/primary",
                         "strokeVar": null,
+                        "mode": "Warm",
                         "children": [
                           {
                             "kind": "frame",
@@ -3642,7 +3646,7 @@
                                     "styleFontStyleName": "Bold",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "emphasis/warm/text",
+                                    "colorVar": "foreground/primary",
                                     "fontSizeVar": "font/size/3xl",
                                     "sizing": "FILL"
                                   },
@@ -3654,7 +3658,7 @@
                                     "styleFontStyleName": "Regular",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "emphasis/warm/text",
+                                    "colorVar": "foreground/primary",
                                     "fontSizeVar": "font/size/l",
                                     "sizing": "FILL"
                                   }
@@ -3676,11 +3680,11 @@
                                     "gapVar": "spacing/2",
                                     "cornerRadiusVar": "border/radius/button"
                                   },
-                                  "fillVar": "emphasis/warm/inverse/bg",
+                                  "fillVar": "action/primary/bg",
                                   "borderVar": null,
                                   "text": {
                                     "content": "Jetzt testen",
-                                    "colorVar": "emphasis/warm/inverse/text",
+                                    "colorVar": "action/primary/text",
                                     "fontSizeVar": "font/size/s",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -3903,7 +3907,7 @@
       ],
       "knownGaps": [
         "Desktop-Ansicht (Compact-Widget mit Media rechts ab xl, Split nebeneinander ab lg); Mobile-Umbr\u00fcche sind CSS. Compact nur mit Media (showMedia=true), Media ist ein graues Platzhalter-Rechteck.",
-        "Emphasis-Fl\u00e4che und Button-Farben sind direkt an emphasis/<accent|warm>/* gebunden (im Code per Mode-Lock data-mode); Quote-Widget nutzt background/inverse + foreground/onInverse (im Code data-mode auto-inverse). Split: zweites Widget ist die Outline-Variante mit Outlined-Button. Max-H\u00f6he 300px des Splits ist nicht abgebildet."
+        "Widget-Fl\u00e4che ist ein Frame im Surface-Modus Accent bzw. Warm (ADR 0024; im Code data-mode) und bindet background/primary, foreground/primary und den normalen Primary-Button; Quote-Widget nutzt background/inverse + foreground/onInverse (im Code data-mode auto-inverse). Split: zweites Widget ist die Outline-Variante mit Outlined-Button. Max-H\u00f6he 300px des Splits ist nicht abgebildet."
       ]
     },
     "Story-Grid": {
