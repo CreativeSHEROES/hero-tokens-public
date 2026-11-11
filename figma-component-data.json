@@ -45,11 +45,11 @@
             "gapVar": "spacing/2",
             "cornerRadiusVar": "border/radius/button"
           },
-          "fillVar": "action/primary/bg",
+          "fillVar": "Fl\u00e4che/ctaBg",
           "borderVar": null,
           "text": {
             "content": "Jetzt starten",
-            "colorVar": "action/primary/text",
+            "colorVar": "Fl\u00e4che/ctaText",
             "fontSizeVar": "font/size/m",
             "fontFamily": "Hero",
             "fontWeight": 700,
@@ -100,10 +100,10 @@
             "cornerRadiusVar": "border/radius/button"
           },
           "fillVar": null,
-          "borderVar": "action/secondary/border",
+          "borderVar": "Fl\u00e4che/ink",
           "text": {
             "content": "Jetzt starten",
-            "colorVar": "action/secondary/text",
+            "colorVar": "Fl\u00e4che/ink",
             "fontSizeVar": "font/size/m",
             "fontFamily": "Hero",
             "fontWeight": 700,
@@ -130,7 +130,7 @@
           "borderVar": null,
           "text": {
             "content": "Jetzt starten",
-            "colorVar": "action/ghost/text",
+            "colorVar": "Fl\u00e4che/ink",
             "fontSizeVar": "font/size/m",
             "fontFamily": "Hero",
             "fontWeight": 700,
@@ -153,11 +153,11 @@
             "gapVar": "spacing/2",
             "cornerRadiusVar": "border/radius/button"
           },
-          "fillVar": "action/primary/bg",
+          "fillVar": "Fl\u00e4che/ctaBg",
           "borderVar": null,
           "text": {
             "content": "Jetzt starten",
-            "colorVar": "action/primary/text",
+            "colorVar": "Fl\u00e4che/ctaText",
             "fontSizeVar": "font/size/s",
             "fontFamily": "Hero",
             "fontWeight": 700,
@@ -208,10 +208,10 @@
             "cornerRadiusVar": "border/radius/button"
           },
           "fillVar": null,
-          "borderVar": "action/secondary/border",
+          "borderVar": "Fl\u00e4che/ink",
           "text": {
             "content": "Jetzt starten",
-            "colorVar": "action/secondary/text",
+            "colorVar": "Fl\u00e4che/ink",
             "fontSizeVar": "font/size/s",
             "fontFamily": "Hero",
             "fontWeight": 700,
@@ -238,7 +238,7 @@
           "borderVar": null,
           "text": {
             "content": "Jetzt starten",
-            "colorVar": "action/ghost/text",
+            "colorVar": "Fl\u00e4che/ink",
             "fontSizeVar": "font/size/s",
             "fontFamily": "Hero",
             "fontWeight": 700,
@@ -291,11 +291,11 @@
             "paddingYVar": "spacing/1",
             "cornerRadiusVar": "border/radius/rounded"
           },
-          "fillVar": "background/inverse",
+          "fillVar": "Fl\u00e4che/inverse",
           "borderVar": null,
           "text": {
             "content": "Category",
-            "colorVar": "foreground/onInverse",
+            "colorVar": "Fl\u00e4che/onInverse",
             "fontSizeVar": "font/size/xs",
             "fontFamily": "Hero",
             "fontWeight": 400,
@@ -432,10 +432,10 @@
             "cornerRadiusVar": "border/radius/rounded"
           },
           "fillVar": null,
-          "borderVar": "action/secondary/border",
+          "borderVar": "Fl\u00e4che/ink",
           "text": {
             "content": "Category",
-            "colorVar": "action/secondary/text",
+            "colorVar": "Fl\u00e4che/ink",
             "fontSizeVar": "font/size/xs",
             "fontFamily": "Hero",
             "fontWeight": 400,
@@ -487,11 +487,11 @@
             "paddingYVar": "spacing/2",
             "cornerRadiusVar": "border/radius/rounded"
           },
-          "fillVar": "background/inverse",
+          "fillVar": "Fl\u00e4che/inverse",
           "borderVar": null,
           "text": {
             "content": "Category",
-            "colorVar": "foreground/onInverse",
+            "colorVar": "Fl\u00e4che/onInverse",
             "fontSizeVar": "font/size/s",
             "fontFamily": "Hero",
             "fontWeight": 400,
@@ -628,10 +628,10 @@
             "cornerRadiusVar": "border/radius/rounded"
           },
           "fillVar": null,
-          "borderVar": "action/secondary/border",
+          "borderVar": "Fl\u00e4che/ink",
           "text": {
             "content": "Category",
-            "colorVar": "action/secondary/text",
+            "colorVar": "Fl\u00e4che/ink",
             "fontSizeVar": "font/size/s",
             "fontFamily": "Hero",
             "fontWeight": 400,
@@ -683,11 +683,11 @@
             "paddingYVar": "spacing/3",
             "cornerRadiusVar": "border/radius/rounded"
           },
-          "fillVar": "background/inverse",
+          "fillVar": "Fl\u00e4che/inverse",
           "borderVar": null,
           "text": {
             "content": "Category",
-            "colorVar": "foreground/onInverse",
+            "colorVar": "Fl\u00e4che/onInverse",
             "fontSizeVar": "font/size/m",
             "fontFamily": "Hero",
             "fontWeight": 400,
@@ -824,10 +824,10 @@
             "cornerRadiusVar": "border/radius/rounded"
           },
           "fillVar": null,
-          "borderVar": "action/secondary/border",
+          "borderVar": "Fl\u00e4che/ink",
           "text": {
             "content": "Category",
-            "colorVar": "action/secondary/text",
+            "colorVar": "Fl\u00e4che/ink",
             "fontSizeVar": "font/size/m",
             "fontFamily": "Hero",
             "fontWeight": 400,
@@ -905,7 +905,7 @@
             "dir": "VERTICAL",
             "width": 340,
             "minHeight": 380,
-            "fillVar": "background/inverse",
+            "fillVar": "Fl\u00e4che/inverse",
             "strokeVar": null,
             "radiusVar": "border/radius/card",
             "children": [
@@ -933,7 +933,7 @@
                         "styleFontStyleName": "Bold",
                         "fontStyleName": null,
                         "fontFamily": "Hero",
-                        "colorVar": "foreground/onInverse",
+                        "colorVar": "Fl\u00e4che/onInverse",
                         "fontSizeVar": "font/size/xl",
                         "sizing": "HUG"
                       },
@@ -979,7 +979,7 @@
                     "styleFontStyleName": "Regular",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/onInverseSecondary",
+                    "colorVar": "Fl\u00e4che/onInverseSecondary",
                     "fontSizeVar": "font/size/m",
                     "sizing": "FILL"
                   }
@@ -1006,7 +1006,7 @@
             "dir": "VERTICAL",
             "width": 340,
             "minHeight": 380,
-            "fillVar": "background/inverse",
+            "fillVar": "Fl\u00e4che/inverse",
             "strokeVar": null,
             "radiusVar": "border/radius/card",
             "paddingVar": "spacing/8",
@@ -1022,7 +1022,7 @@
                 },
                 "size": 16,
                 "letterSpacing": 4,
-                "colorVar": "foreground/onInverse"
+                "colorVar": "Fl\u00e4che/onInverse"
               },
               {
                 "kind": "frame",
@@ -1040,7 +1040,7 @@
                     "styleFontStyleName": "Regular",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/onInverse",
+                    "colorVar": "Fl\u00e4che/onInverse",
                     "fontSizeVar": "font/size/l",
                     "lineHeightPercent": 140,
                     "sizing": "FILL"
@@ -1074,7 +1074,7 @@
                             "styleFontStyleName": "Regular",
                             "fontStyleName": "Bold",
                             "fontFamily": "Hero",
-                            "colorVar": "foreground/onInverse",
+                            "colorVar": "Fl\u00e4che/onInverse",
                             "fontSizeVar": "font/size/s",
                             "sizing": "FILL"
                           },
@@ -1086,7 +1086,7 @@
                             "styleFontStyleName": "Regular",
                             "fontStyleName": null,
                             "fontFamily": "Hero",
-                            "colorVar": "foreground/onInverseSecondary",
+                            "colorVar": "Fl\u00e4che/onInverseSecondary",
                             "fontSizeVar": "font/size/s",
                             "sizing": "FILL"
                           }
@@ -1111,7 +1111,7 @@
             "dir": "VERTICAL",
             "width": 340,
             "minHeight": 380,
-            "fillVar": "background/inverse",
+            "fillVar": "Fl\u00e4che/inverse",
             "strokeVar": null,
             "radiusVar": "border/radius/card",
             "paddingVar": "spacing/8",
@@ -1146,7 +1146,7 @@
                     "styleFontStyleName": "Bold",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/onInverse",
+                    "colorVar": "Fl\u00e4che/onInverse",
                     "fontSizeVar": "font/size/xl",
                     "sizing": "FILL"
                   },
@@ -1158,7 +1158,7 @@
                     "styleFontStyleName": "Regular",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/onInverseSecondary",
+                    "colorVar": "Fl\u00e4che/onInverseSecondary",
                     "fontSizeVar": "font/size/m",
                     "sizing": "FILL"
                   }
@@ -1179,7 +1179,7 @@
             "dir": "VERTICAL",
             "width": 340,
             "minHeight": null,
-            "fillVar": "background/inverse",
+            "fillVar": "Fl\u00e4che/inverse",
             "strokeVar": null,
             "radiusVar": "border/radius/card",
             "paddingVar": "spacing/8",
@@ -1193,7 +1193,7 @@
                 "styleFontStyleName": "Extrabold",
                 "fontStyleName": null,
                 "fontFamily": "Hero",
-                "colorVar": "foreground/onInverse",
+                "colorVar": "Fl\u00e4che/onInverse",
                 "fontSizeVar": "font/size/5xl",
                 "sizing": "FILL"
               },
@@ -1205,7 +1205,7 @@
                 "styleFontStyleName": "Regular",
                 "fontStyleName": "Bold",
                 "fontFamily": "Hero",
-                "colorVar": "foreground/onInverse",
+                "colorVar": "Fl\u00e4che/onInverse",
                 "fontSizeVar": "font/size/m",
                 "sizing": "FILL"
               },
@@ -1217,7 +1217,7 @@
                 "styleFontStyleName": "Regular",
                 "fontStyleName": null,
                 "fontFamily": "Hero",
-                "colorVar": "foreground/onInverseSecondary",
+                "colorVar": "Fl\u00e4che/onInverseSecondary",
                 "fontSizeVar": "font/size/m",
                 "sizing": "FILL"
               }
@@ -1236,7 +1236,7 @@
             "dir": "VERTICAL",
             "width": 340,
             "minHeight": 380,
-            "fillVar": "background/secondary",
+            "fillVar": "Fl\u00e4che/tint",
             "strokeVar": null,
             "radiusVar": "border/radius/card",
             "children": [
@@ -1264,7 +1264,7 @@
                         "styleFontStyleName": "Bold",
                         "fontStyleName": null,
                         "fontFamily": "Hero",
-                        "colorVar": "foreground/primary",
+                        "colorVar": "Fl\u00e4che/ink",
                         "fontSizeVar": "font/size/xl",
                         "sizing": "HUG"
                       },
@@ -1310,7 +1310,7 @@
                     "styleFontStyleName": "Regular",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/secondary",
+                    "colorVar": "Fl\u00e4che/inkSecondary",
                     "fontSizeVar": "font/size/m",
                     "sizing": "FILL"
                   }
@@ -1337,7 +1337,7 @@
             "dir": "VERTICAL",
             "width": 340,
             "minHeight": 380,
-            "fillVar": "background/secondary",
+            "fillVar": "Fl\u00e4che/tint",
             "strokeVar": null,
             "radiusVar": "border/radius/card",
             "paddingVar": "spacing/8",
@@ -1353,7 +1353,7 @@
                 },
                 "size": 16,
                 "letterSpacing": 4,
-                "colorVar": "foreground/primary"
+                "colorVar": "Fl\u00e4che/ink"
               },
               {
                 "kind": "frame",
@@ -1371,7 +1371,7 @@
                     "styleFontStyleName": "Regular",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/primary",
+                    "colorVar": "Fl\u00e4che/ink",
                     "fontSizeVar": "font/size/l",
                     "lineHeightPercent": 140,
                     "sizing": "FILL"
@@ -1405,7 +1405,7 @@
                             "styleFontStyleName": "Regular",
                             "fontStyleName": "Bold",
                             "fontFamily": "Hero",
-                            "colorVar": "foreground/primary",
+                            "colorVar": "Fl\u00e4che/ink",
                             "fontSizeVar": "font/size/s",
                             "sizing": "FILL"
                           },
@@ -1417,7 +1417,7 @@
                             "styleFontStyleName": "Regular",
                             "fontStyleName": null,
                             "fontFamily": "Hero",
-                            "colorVar": "foreground/secondary",
+                            "colorVar": "Fl\u00e4che/inkSecondary",
                             "fontSizeVar": "font/size/s",
                             "sizing": "FILL"
                           }
@@ -1442,7 +1442,7 @@
             "dir": "VERTICAL",
             "width": 340,
             "minHeight": 380,
-            "fillVar": "background/secondary",
+            "fillVar": "Fl\u00e4che/tint",
             "strokeVar": null,
             "radiusVar": "border/radius/card",
             "paddingVar": "spacing/8",
@@ -1477,7 +1477,7 @@
                     "styleFontStyleName": "Bold",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/primary",
+                    "colorVar": "Fl\u00e4che/ink",
                     "fontSizeVar": "font/size/xl",
                     "sizing": "FILL"
                   },
@@ -1489,7 +1489,7 @@
                     "styleFontStyleName": "Regular",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/secondary",
+                    "colorVar": "Fl\u00e4che/inkSecondary",
                     "fontSizeVar": "font/size/m",
                     "sizing": "FILL"
                   }
@@ -1510,7 +1510,7 @@
             "dir": "VERTICAL",
             "width": 340,
             "minHeight": null,
-            "fillVar": "background/secondary",
+            "fillVar": "Fl\u00e4che/tint",
             "strokeVar": null,
             "radiusVar": "border/radius/card",
             "paddingVar": "spacing/8",
@@ -1524,7 +1524,7 @@
                 "styleFontStyleName": "Extrabold",
                 "fontStyleName": null,
                 "fontFamily": "Hero",
-                "colorVar": "foreground/primary",
+                "colorVar": "Fl\u00e4che/ink",
                 "fontSizeVar": "font/size/5xl",
                 "sizing": "FILL"
               },
@@ -1536,7 +1536,7 @@
                 "styleFontStyleName": "Regular",
                 "fontStyleName": "Bold",
                 "fontFamily": "Hero",
-                "colorVar": "foreground/primary",
+                "colorVar": "Fl\u00e4che/ink",
                 "fontSizeVar": "font/size/m",
                 "sizing": "FILL"
               },
@@ -1548,7 +1548,7 @@
                 "styleFontStyleName": "Regular",
                 "fontStyleName": null,
                 "fontFamily": "Hero",
-                "colorVar": "foreground/secondary",
+                "colorVar": "Fl\u00e4che/inkSecondary",
                 "fontSizeVar": "font/size/m",
                 "sizing": "FILL"
               }
@@ -1568,7 +1568,7 @@
             "width": 340,
             "minHeight": 380,
             "fillVar": null,
-            "strokeVar": "border/inverse",
+            "strokeVar": "Fl\u00e4che/ink",
             "radiusVar": "border/radius/card",
             "children": [
               {
@@ -1595,7 +1595,7 @@
                         "styleFontStyleName": "Bold",
                         "fontStyleName": null,
                         "fontFamily": "Hero",
-                        "colorVar": "foreground/primary",
+                        "colorVar": "Fl\u00e4che/ink",
                         "fontSizeVar": "font/size/xl",
                         "sizing": "HUG"
                       },
@@ -1641,7 +1641,7 @@
                     "styleFontStyleName": "Regular",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/secondary",
+                    "colorVar": "Fl\u00e4che/inkSecondary",
                     "fontSizeVar": "font/size/m",
                     "sizing": "FILL"
                   }
@@ -1669,7 +1669,7 @@
             "width": 340,
             "minHeight": 380,
             "fillVar": null,
-            "strokeVar": "border/inverse",
+            "strokeVar": "Fl\u00e4che/ink",
             "radiusVar": "border/radius/card",
             "paddingVar": "spacing/8",
             "gapVar": "spacing/12",
@@ -1684,7 +1684,7 @@
                 },
                 "size": 16,
                 "letterSpacing": 4,
-                "colorVar": "foreground/primary"
+                "colorVar": "Fl\u00e4che/ink"
               },
               {
                 "kind": "frame",
@@ -1702,7 +1702,7 @@
                     "styleFontStyleName": "Regular",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/primary",
+                    "colorVar": "Fl\u00e4che/ink",
                     "fontSizeVar": "font/size/l",
                     "lineHeightPercent": 140,
                     "sizing": "FILL"
@@ -1736,7 +1736,7 @@
                             "styleFontStyleName": "Regular",
                             "fontStyleName": "Bold",
                             "fontFamily": "Hero",
-                            "colorVar": "foreground/primary",
+                            "colorVar": "Fl\u00e4che/ink",
                             "fontSizeVar": "font/size/s",
                             "sizing": "FILL"
                           },
@@ -1748,7 +1748,7 @@
                             "styleFontStyleName": "Regular",
                             "fontStyleName": null,
                             "fontFamily": "Hero",
-                            "colorVar": "foreground/secondary",
+                            "colorVar": "Fl\u00e4che/inkSecondary",
                             "fontSizeVar": "font/size/s",
                             "sizing": "FILL"
                           }
@@ -1774,7 +1774,7 @@
             "width": 340,
             "minHeight": 380,
             "fillVar": null,
-            "strokeVar": "border/inverse",
+            "strokeVar": "Fl\u00e4che/ink",
             "radiusVar": "border/radius/card",
             "paddingVar": "spacing/8",
             "justify": "SPACE_BETWEEN",
@@ -1808,7 +1808,7 @@
                     "styleFontStyleName": "Bold",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/primary",
+                    "colorVar": "Fl\u00e4che/ink",
                     "fontSizeVar": "font/size/xl",
                     "sizing": "FILL"
                   },
@@ -1820,7 +1820,7 @@
                     "styleFontStyleName": "Regular",
                     "fontStyleName": null,
                     "fontFamily": "Hero",
-                    "colorVar": "foreground/secondary",
+                    "colorVar": "Fl\u00e4che/inkSecondary",
                     "fontSizeVar": "font/size/m",
                     "sizing": "FILL"
                   }
@@ -1842,7 +1842,7 @@
             "width": 340,
             "minHeight": null,
             "fillVar": null,
-            "strokeVar": "border/inverse",
+            "strokeVar": "Fl\u00e4che/ink",
             "radiusVar": "border/radius/card",
             "paddingVar": "spacing/8",
             "gapVar": "spacing/2",
@@ -1855,7 +1855,7 @@
                 "styleFontStyleName": "Extrabold",
                 "fontStyleName": null,
                 "fontFamily": "Hero",
-                "colorVar": "foreground/primary",
+                "colorVar": "Fl\u00e4che/ink",
                 "fontSizeVar": "font/size/5xl",
                 "sizing": "FILL"
               },
@@ -1867,7 +1867,7 @@
                 "styleFontStyleName": "Regular",
                 "fontStyleName": "Bold",
                 "fontFamily": "Hero",
-                "colorVar": "foreground/primary",
+                "colorVar": "Fl\u00e4che/ink",
                 "fontSizeVar": "font/size/m",
                 "sizing": "FILL"
               },
@@ -1879,7 +1879,7 @@
                 "styleFontStyleName": "Regular",
                 "fontStyleName": null,
                 "fontFamily": "Hero",
-                "colorVar": "foreground/secondary",
+                "colorVar": "Fl\u00e4che/inkSecondary",
                 "fontSizeVar": "font/size/m",
                 "sizing": "FILL"
               }
@@ -3198,11 +3198,11 @@
                                     "gapVar": "spacing/2",
                                     "cornerRadiusVar": "border/radius/button"
                                   },
-                                  "fillVar": "action/primary/bg",
+                                  "fillVar": "Fl\u00e4che/ctaBg",
                                   "borderVar": null,
                                   "text": {
                                     "content": "Jetzt testen",
-                                    "colorVar": "action/primary/text",
+                                    "colorVar": "Fl\u00e4che/ctaText",
                                     "fontSizeVar": "font/size/m",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -3332,11 +3332,11 @@
                                     "gapVar": "spacing/2",
                                     "cornerRadiusVar": "border/radius/button"
                                   },
-                                  "fillVar": "action/primary/bg",
+                                  "fillVar": "Fl\u00e4che/ctaBg",
                                   "borderVar": null,
                                   "text": {
                                     "content": "Jetzt testen",
-                                    "colorVar": "action/primary/text",
+                                    "colorVar": "Fl\u00e4che/ctaText",
                                     "fontSizeVar": "font/size/m",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -3466,11 +3466,11 @@
                                     "gapVar": "spacing/2",
                                     "cornerRadiusVar": "border/radius/button"
                                   },
-                                  "fillVar": "action/primary/bg",
+                                  "fillVar": "Fl\u00e4che/ctaBg",
                                   "borderVar": null,
                                   "text": {
                                     "content": "Jetzt testen",
-                                    "colorVar": "action/primary/text",
+                                    "colorVar": "Fl\u00e4che/ctaText",
                                     "fontSizeVar": "font/size/s",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -3556,10 +3556,10 @@
                                     "cornerRadiusVar": "border/radius/button"
                                   },
                                   "fillVar": null,
-                                  "borderVar": "action/secondary/border",
+                                  "borderVar": "Fl\u00e4che/ink",
                                   "text": {
                                     "content": "Jetzt testen",
-                                    "colorVar": "action/secondary/text",
+                                    "colorVar": "Fl\u00e4che/ink",
                                     "fontSizeVar": "font/size/s",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -3680,11 +3680,11 @@
                                     "gapVar": "spacing/2",
                                     "cornerRadiusVar": "border/radius/button"
                                   },
-                                  "fillVar": "action/primary/bg",
+                                  "fillVar": "Fl\u00e4che/ctaBg",
                                   "borderVar": null,
                                   "text": {
                                     "content": "Jetzt testen",
-                                    "colorVar": "action/primary/text",
+                                    "colorVar": "Fl\u00e4che/ctaText",
                                     "fontSizeVar": "font/size/s",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -3770,10 +3770,10 @@
                                     "cornerRadiusVar": "border/radius/button"
                                   },
                                   "fillVar": null,
-                                  "borderVar": "action/secondary/border",
+                                  "borderVar": "Fl\u00e4che/ink",
                                   "text": {
                                     "content": "Jetzt testen",
-                                    "colorVar": "action/secondary/text",
+                                    "colorVar": "Fl\u00e4che/ink",
                                     "fontSizeVar": "font/size/s",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -4518,10 +4518,10 @@
                                     "cornerRadiusVar": "border/radius/button"
                                   },
                                   "fillVar": null,
-                                  "borderVar": "action/secondary/border",
+                                  "borderVar": "Fl\u00e4che/ink",
                                   "text": {
                                     "content": "Mehr laden",
-                                    "colorVar": "action/secondary/text",
+                                    "colorVar": "Fl\u00e4che/ink",
                                     "fontSizeVar": "font/size/m",
                                     "fontFamily": "Hero",
                                     "fontWeight": 700,
@@ -4683,11 +4683,11 @@
                                 "gapVar": "spacing/2",
                                 "cornerRadiusVar": "border/radius/button"
                               },
-                              "fillVar": "action/primary/bg",
+                              "fillVar": "Fl\u00e4che/ctaBg",
                               "borderVar": null,
                               "text": {
                                 "content": "Jetzt testen",
-                                "colorVar": "action/primary/text",
+                                "colorVar": "Fl\u00e4che/ctaText",
                                 "fontSizeVar": "font/size/m",
                                 "fontFamily": "Hero",
                                 "fontWeight": 700,
@@ -4826,11 +4826,11 @@
                                 "gapVar": "spacing/2",
                                 "cornerRadiusVar": "border/radius/button"
                               },
-                              "fillVar": "action/primary/bg",
+                              "fillVar": "Fl\u00e4che/ctaBg",
                               "borderVar": null,
                               "text": {
                                 "content": "Jetzt testen",
-                                "colorVar": "action/primary/text",
+                                "colorVar": "Fl\u00e4che/ctaText",
                                 "fontSizeVar": "font/size/m",
                                 "fontFamily": "Hero",
                                 "fontWeight": 700,
@@ -4970,11 +4970,11 @@
                                 "gapVar": "spacing/2",
                                 "cornerRadiusVar": "border/radius/button"
                               },
-                              "fillVar": "action/primary/bg",
+                              "fillVar": "Fl\u00e4che/ctaBg",
                               "borderVar": null,
                               "text": {
                                 "content": "Jetzt testen",
-                                "colorVar": "action/primary/text",
+                                "colorVar": "Fl\u00e4che/ctaText",
                                 "fontSizeVar": "font/size/m",
                                 "fontFamily": "Hero",
                                 "fontWeight": 700,
@@ -5114,11 +5114,11 @@
                                 "gapVar": "spacing/2",
                                 "cornerRadiusVar": "border/radius/button"
                               },
-                              "fillVar": "action/primary/bg",
+                              "fillVar": "Fl\u00e4che/ctaBg",
                               "borderVar": null,
                               "text": {
                                 "content": "Jetzt testen",
-                                "colorVar": "action/primary/text",
+                                "colorVar": "Fl\u00e4che/ctaText",
                                 "fontSizeVar": "font/size/m",
                                 "fontFamily": "Hero",
                                 "fontWeight": 700,
@@ -5262,11 +5262,11 @@
                                 "gapVar": "spacing/2",
                                 "cornerRadiusVar": "border/radius/button"
                               },
-                              "fillVar": "action/primary/bg",
+                              "fillVar": "Fl\u00e4che/ctaBg",
                               "borderVar": null,
                               "text": {
                                 "content": "Jetzt testen",
-                                "colorVar": "action/primary/text",
+                                "colorVar": "Fl\u00e4che/ctaText",
                                 "fontSizeVar": "font/size/m",
                                 "fontFamily": "Hero",
                                 "fontWeight": 700,
@@ -5413,11 +5413,11 @@
                                 "gapVar": "spacing/2",
                                 "cornerRadiusVar": "border/radius/button"
                               },
-                              "fillVar": "action/primary/bg",
+                              "fillVar": "Fl\u00e4che/ctaBg",
                               "borderVar": null,
                               "text": {
                                 "content": "Jetzt testen",
-                                "colorVar": "action/primary/text",
+                                "colorVar": "Fl\u00e4che/ctaText",
                                 "fontSizeVar": "font/size/m",
                                 "fontFamily": "Hero",
                                 "fontWeight": 700,
@@ -6294,10 +6294,10 @@
                                         "cornerRadiusVar": "border/radius/button"
                                       },
                                       "fillVar": null,
-                                      "borderVar": "action/secondary/border",
+                                      "borderVar": "Fl\u00e4che/ink",
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/secondary/text",
+                                        "colorVar": "Fl\u00e4che/ink",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -6672,11 +6672,11 @@
                                         "gapVar": "spacing/2",
                                         "cornerRadiusVar": "border/radius/button"
                                       },
-                                      "fillVar": "action/primary/bg",
+                                      "fillVar": "Fl\u00e4che/ctaBg",
                                       "borderVar": null,
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/primary/text",
+                                        "colorVar": "Fl\u00e4che/ctaText",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -7087,10 +7087,10 @@
                                         "cornerRadiusVar": "border/radius/button"
                                       },
                                       "fillVar": null,
-                                      "borderVar": "action/secondary/border",
+                                      "borderVar": "Fl\u00e4che/ink",
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/secondary/text",
+                                        "colorVar": "Fl\u00e4che/ink",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -7580,10 +7580,10 @@
                                         "cornerRadiusVar": "border/radius/button"
                                       },
                                       "fillVar": null,
-                                      "borderVar": "action/secondary/border",
+                                      "borderVar": "Fl\u00e4che/ink",
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/secondary/text",
+                                        "colorVar": "Fl\u00e4che/ink",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -7958,11 +7958,11 @@
                                         "gapVar": "spacing/2",
                                         "cornerRadiusVar": "border/radius/button"
                                       },
-                                      "fillVar": "action/primary/bg",
+                                      "fillVar": "Fl\u00e4che/ctaBg",
                                       "borderVar": null,
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/primary/text",
+                                        "colorVar": "Fl\u00e4che/ctaText",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -8371,10 +8371,10 @@
                                         "cornerRadiusVar": "border/radius/button"
                                       },
                                       "fillVar": null,
-                                      "borderVar": "action/secondary/border",
+                                      "borderVar": "Fl\u00e4che/ink",
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/secondary/text",
+                                        "colorVar": "Fl\u00e4che/ink",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -8864,10 +8864,10 @@
                                         "cornerRadiusVar": "border/radius/button"
                                       },
                                       "fillVar": null,
-                                      "borderVar": "action/secondary/border",
+                                      "borderVar": "Fl\u00e4che/ink",
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/secondary/text",
+                                        "colorVar": "Fl\u00e4che/ink",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -9242,11 +9242,11 @@
                                         "gapVar": "spacing/2",
                                         "cornerRadiusVar": "border/radius/button"
                                       },
-                                      "fillVar": "action/primary/bg",
+                                      "fillVar": "Fl\u00e4che/ctaBg",
                                       "borderVar": null,
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/primary/text",
+                                        "colorVar": "Fl\u00e4che/ctaText",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -9657,10 +9657,10 @@
                                         "cornerRadiusVar": "border/radius/button"
                                       },
                                       "fillVar": null,
-                                      "borderVar": "action/secondary/border",
+                                      "borderVar": "Fl\u00e4che/ink",
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/secondary/text",
+                                        "colorVar": "Fl\u00e4che/ink",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -10150,10 +10150,10 @@
                                         "cornerRadiusVar": "border/radius/button"
                                       },
                                       "fillVar": null,
-                                      "borderVar": "action/secondary/border",
+                                      "borderVar": "Fl\u00e4che/ink",
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/secondary/text",
+                                        "colorVar": "Fl\u00e4che/ink",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -10528,11 +10528,11 @@
                                         "gapVar": "spacing/2",
                                         "cornerRadiusVar": "border/radius/button"
                                       },
-                                      "fillVar": "action/primary/bg",
+                                      "fillVar": "Fl\u00e4che/ctaBg",
                                       "borderVar": null,
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/primary/text",
+                                        "colorVar": "Fl\u00e4che/ctaText",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -10941,10 +10941,10 @@
                                         "cornerRadiusVar": "border/radius/button"
                                       },
                                       "fillVar": null,
-                                      "borderVar": "action/secondary/border",
+                                      "borderVar": "Fl\u00e4che/ink",
                                       "text": {
                                         "content": "Jetzt starten",
-                                        "colorVar": "action/secondary/text",
+                                        "colorVar": "Fl\u00e4che/ink",
                                         "fontSizeVar": "font/size/m",
                                         "fontFamily": "Hero",
                                         "fontWeight": 700,
@@ -11544,7 +11544,7 @@
                             "dir": "VERTICAL",
                             "width": 400,
                             "minHeight": 380,
-                            "fillVar": "background/inverse",
+                            "fillVar": "Fl\u00e4che/inverse",
                             "strokeVar": null,
                             "radiusVar": "border/radius/card",
                             "paddingVar": "spacing/8",
@@ -11560,7 +11560,7 @@
                                 },
                                 "size": 16,
                                 "letterSpacing": 4,
-                                "colorVar": "foreground/onInverse"
+                                "colorVar": "Fl\u00e4che/onInverse"
                               },
                               {
                                 "kind": "frame",
@@ -11578,7 +11578,7 @@
                                     "styleFontStyleName": "Regular",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "foreground/onInverse",
+                                    "colorVar": "Fl\u00e4che/onInverse",
                                     "fontSizeVar": "font/size/l",
                                     "lineHeightPercent": 140,
                                     "sizing": "FILL"
@@ -11612,7 +11612,7 @@
                                             "styleFontStyleName": "Regular",
                                             "fontStyleName": "Bold",
                                             "fontFamily": "Hero",
-                                            "colorVar": "foreground/onInverse",
+                                            "colorVar": "Fl\u00e4che/onInverse",
                                             "fontSizeVar": "font/size/s",
                                             "sizing": "FILL"
                                           },
@@ -11624,7 +11624,7 @@
                                             "styleFontStyleName": "Regular",
                                             "fontStyleName": null,
                                             "fontFamily": "Hero",
-                                            "colorVar": "foreground/onInverseSecondary",
+                                            "colorVar": "Fl\u00e4che/onInverseSecondary",
                                             "fontSizeVar": "font/size/s",
                                             "sizing": "FILL"
                                           }
@@ -11642,7 +11642,7 @@
                             "dir": "VERTICAL",
                             "width": 400,
                             "minHeight": 380,
-                            "fillVar": "background/inverse",
+                            "fillVar": "Fl\u00e4che/inverse",
                             "strokeVar": null,
                             "radiusVar": "border/radius/card",
                             "paddingVar": "spacing/8",
@@ -11658,7 +11658,7 @@
                                 },
                                 "size": 16,
                                 "letterSpacing": 4,
-                                "colorVar": "foreground/onInverse"
+                                "colorVar": "Fl\u00e4che/onInverse"
                               },
                               {
                                 "kind": "frame",
@@ -11676,7 +11676,7 @@
                                     "styleFontStyleName": "Regular",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "foreground/onInverse",
+                                    "colorVar": "Fl\u00e4che/onInverse",
                                     "fontSizeVar": "font/size/l",
                                     "lineHeightPercent": 140,
                                     "sizing": "FILL"
@@ -11710,7 +11710,7 @@
                                             "styleFontStyleName": "Regular",
                                             "fontStyleName": "Bold",
                                             "fontFamily": "Hero",
-                                            "colorVar": "foreground/onInverse",
+                                            "colorVar": "Fl\u00e4che/onInverse",
                                             "fontSizeVar": "font/size/s",
                                             "sizing": "FILL"
                                           },
@@ -11722,7 +11722,7 @@
                                             "styleFontStyleName": "Regular",
                                             "fontStyleName": null,
                                             "fontFamily": "Hero",
-                                            "colorVar": "foreground/onInverseSecondary",
+                                            "colorVar": "Fl\u00e4che/onInverseSecondary",
                                             "fontSizeVar": "font/size/s",
                                             "sizing": "FILL"
                                           }
@@ -11740,7 +11740,7 @@
                             "dir": "VERTICAL",
                             "width": 400,
                             "minHeight": 380,
-                            "fillVar": "background/inverse",
+                            "fillVar": "Fl\u00e4che/inverse",
                             "strokeVar": null,
                             "radiusVar": "border/radius/card",
                             "paddingVar": "spacing/8",
@@ -11756,7 +11756,7 @@
                                 },
                                 "size": 16,
                                 "letterSpacing": 4,
-                                "colorVar": "foreground/onInverse"
+                                "colorVar": "Fl\u00e4che/onInverse"
                               },
                               {
                                 "kind": "frame",
@@ -11774,7 +11774,7 @@
                                     "styleFontStyleName": "Regular",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "foreground/onInverse",
+                                    "colorVar": "Fl\u00e4che/onInverse",
                                     "fontSizeVar": "font/size/l",
                                     "lineHeightPercent": 140,
                                     "sizing": "FILL"
@@ -11808,7 +11808,7 @@
                                             "styleFontStyleName": "Regular",
                                             "fontStyleName": "Bold",
                                             "fontFamily": "Hero",
-                                            "colorVar": "foreground/onInverse",
+                                            "colorVar": "Fl\u00e4che/onInverse",
                                             "fontSizeVar": "font/size/s",
                                             "sizing": "FILL"
                                           },
@@ -11820,7 +11820,7 @@
                                             "styleFontStyleName": "Regular",
                                             "fontStyleName": null,
                                             "fontFamily": "Hero",
-                                            "colorVar": "foreground/onInverseSecondary",
+                                            "colorVar": "Fl\u00e4che/onInverseSecondary",
                                             "fontSizeVar": "font/size/s",
                                             "sizing": "FILL"
                                           }
@@ -11838,7 +11838,7 @@
                             "dir": "VERTICAL",
                             "width": 400,
                             "minHeight": 380,
-                            "fillVar": "background/inverse",
+                            "fillVar": "Fl\u00e4che/inverse",
                             "strokeVar": null,
                             "radiusVar": "border/radius/card",
                             "paddingVar": "spacing/8",
@@ -11854,7 +11854,7 @@
                                 },
                                 "size": 16,
                                 "letterSpacing": 4,
-                                "colorVar": "foreground/onInverse"
+                                "colorVar": "Fl\u00e4che/onInverse"
                               },
                               {
                                 "kind": "frame",
@@ -11872,7 +11872,7 @@
                                     "styleFontStyleName": "Regular",
                                     "fontStyleName": null,
                                     "fontFamily": "Hero",
-                                    "colorVar": "foreground/onInverse",
+                                    "colorVar": "Fl\u00e4che/onInverse",
                                     "fontSizeVar": "font/size/l",
                                     "lineHeightPercent": 140,
                                     "sizing": "FILL"
@@ -11906,7 +11906,7 @@
                                             "styleFontStyleName": "Regular",
                                             "fontStyleName": "Bold",
                                             "fontFamily": "Hero",
-                                            "colorVar": "foreground/onInverse",
+                                            "colorVar": "Fl\u00e4che/onInverse",
                                             "fontSizeVar": "font/size/s",
                                             "sizing": "FILL"
                                           },
@@ -11918,7 +11918,7 @@
                                             "styleFontStyleName": "Regular",
                                             "fontStyleName": null,
                                             "fontFamily": "Hero",
-                                            "colorVar": "foreground/onInverseSecondary",
+                                            "colorVar": "Fl\u00e4che/onInverseSecondary",
                                             "fontSizeVar": "font/size/s",
                                             "sizing": "FILL"
                                           }
