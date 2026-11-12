@@ -12096,7 +12096,7 @@
         }
       ],
       "knownGaps": [
-        "Media-Box 16:9 als graues Platzhalter-Rechteck (1280\u00d7720, Radius card); Video-Player und andere Verh\u00e4ltnisse (4:3, 1:1, 21:9) sind nicht als Varianten gezeichnet. Header ist optional (Default im Code: aus)."
+        "Media-Box 16:9 als graues Platzhalter-Rechteck (1280\u00d7720, Radius card); Video-Player und andere Verh\u00e4ltnisse (4:3, 1:1) sind nicht als Varianten gezeichnet. Header ist optional (Default im Code: aus)."
       ]
     },
     "Gallery": {
