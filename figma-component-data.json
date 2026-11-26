@@ -5441,7 +5441,7 @@
       ],
       "knownGaps": [
         "Desktop-Ansicht: 2 Spalten (Text | Media, je 592px, Abstand 96px), gestapelt (Text zentriert 768px, Media 16:9), Hintergrund-Variante mit Text im Dark-Mode (explizit auf Surface-Mode Dark gesetzt). Mindesth\u00f6he 720px (80svh bei 900px), kein Token.",
-        "Media/Hintergrund sind graue Platzhalter (Bild/Video fehlen); die Brand-Formen sind die Masken-SVGs aus 06-patterns/layouts/hero-text-media/ als graue Vektorform (im Code als Bildmaske). modeLock-Optionen accent/warm nicht als Varianten."
+        "Media/Hintergrund sind graue Platzhalter (Bild/Video fehlen); die Brand-Formen sind die Masken-SVGs aus 06-patterns/layouts/hero-text-media/ als graue Vektorform (im Code als Bildmaske). fill-Optionen accent/warm nicht als Varianten."
       ]
     },
     "Story-Hero": {
@@ -13511,7 +13511,7 @@
         }
       ],
       "knownGaps": [
-        "Desktop (xl): Marke links (Logo 192px, 4 Social-Icons, Companisto-Platzhalter), 5 Link-Spalten rechts. Section im Variablen-Mode Dark (im Code Default modeLock dark); Logo ist die wei\u00dfe Logo-Datei als Vektor, Social-Icons brauchen die installierte Font Awesome 7 Brands. Companisto-Badge und ProvenExpert-Widget sind Platzhalter-K\u00e4sten wie im Code."
+        "Desktop (xl): Marke links (Logo 192px, 4 Social-Icons, Companisto-Platzhalter), 5 Link-Spalten rechts. Section im Variablen-Mode Dark (im Code Default containerFill dark); Logo ist die wei\u00dfe Logo-Datei als Vektor, Social-Icons brauchen die installierte Font Awesome 7 Brands. Companisto-Badge und ProvenExpert-Widget sind Platzhalter-K\u00e4sten wie im Code."
       ]
     }
   },
