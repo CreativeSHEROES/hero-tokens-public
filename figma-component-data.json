@@ -2758,7 +2758,7 @@
                             "gapVar": "spacing/2",
                             "sizing": "FILL",
                             "paddingYVar": "spacing/6",
-                            "strokeVar": "Fl\u00e4che/line",
+                            "strokeVar": "Fl\u00e4che/lineStrong",
                             "strokeSides": "TOP",
                             "children": [
                               {
@@ -2794,7 +2794,7 @@
                             "gapVar": "spacing/2",
                             "sizing": "FILL",
                             "paddingYVar": "spacing/6",
-                            "strokeVar": "Fl\u00e4che/line",
+                            "strokeVar": "Fl\u00e4che/lineStrong",
                             "strokeSides": "TOP",
                             "children": [
                               {
@@ -2830,7 +2830,7 @@
                             "gapVar": "spacing/2",
                             "sizing": "FILL",
                             "paddingYVar": "spacing/6",
-                            "strokeVar": "Fl\u00e4che/line",
+                            "strokeVar": "Fl\u00e4che/lineStrong",
                             "strokeSides": "TOP",
                             "children": [
                               {
@@ -2963,7 +2963,7 @@
                             "gapVar": "spacing/2",
                             "sizing": "FILL",
                             "paddingYVar": "spacing/6",
-                            "strokeVar": "Fl\u00e4che/line",
+                            "strokeVar": "Fl\u00e4che/lineStrong",
                             "strokeSides": "TOP",
                             "children": [
                               {
@@ -2999,7 +2999,7 @@
                             "gapVar": "spacing/2",
                             "sizing": "FILL",
                             "paddingYVar": "spacing/6",
-                            "strokeVar": "Fl\u00e4che/line",
+                            "strokeVar": "Fl\u00e4che/lineStrong",
                             "strokeSides": "TOP",
                             "children": [
                               {
@@ -3035,7 +3035,7 @@
                             "gapVar": "spacing/2",
                             "sizing": "FILL",
                             "paddingYVar": "spacing/6",
-                            "strokeVar": "Fl\u00e4che/line",
+                            "strokeVar": "Fl\u00e4che/lineStrong",
                             "strokeSides": "TOP",
                             "children": [
                               {
@@ -4033,7 +4033,7 @@
                                     "paddingXVar": "spacing/6",
                                     "paddingYPx": 14,
                                     "radiusVar": "border/radius/xs",
-                                    "strokeVar": "border/inverse",
+                                    "strokeVar": "Fl\u00e4che/lineStrong",
                                     "strokeWeight": 2,
                                     "children": [
                                       {
@@ -4071,7 +4071,7 @@
                                     "paddingXVar": "spacing/6",
                                     "paddingYPx": 14,
                                     "radiusVar": "border/radius/xs",
-                                    "strokeVar": "border/inverse",
+                                    "strokeVar": "Fl\u00e4che/lineStrong",
                                     "strokeWeight": 2,
                                     "children": [
                                       {
@@ -4109,7 +4109,7 @@
                                     "paddingXVar": "spacing/6",
                                     "paddingYPx": 14,
                                     "radiusVar": "border/radius/xs",
-                                    "strokeVar": "border/inverse",
+                                    "strokeVar": "Fl\u00e4che/lineStrong",
                                     "strokeWeight": 2,
                                     "children": [
                                       {
@@ -5576,7 +5576,7 @@
                                 "gapVar": "spacing/2",
                                 "fixedWidth": 308,
                                 "paddingYVar": "spacing/6",
-                                "strokeVar": "Fl\u00e4che/line",
+                                "strokeVar": "Fl\u00e4che/lineStrong",
                                 "strokeSides": "TOP",
                                 "children": [
                                   {
@@ -5612,7 +5612,7 @@
                                 "gapVar": "spacing/2",
                                 "fixedWidth": 308,
                                 "paddingYVar": "spacing/6",
-                                "strokeVar": "Fl\u00e4che/line",
+                                "strokeVar": "Fl\u00e4che/lineStrong",
                                 "strokeSides": "TOP",
                                 "children": [
                                   {
@@ -5648,7 +5648,7 @@
                                 "gapVar": "spacing/2",
                                 "fixedWidth": 308,
                                 "paddingYVar": "spacing/6",
-                                "strokeVar": "Fl\u00e4che/line",
+                                "strokeVar": "Fl\u00e4che/lineStrong",
                                 "strokeSides": "TOP",
                                 "children": [
                                   {
@@ -5684,7 +5684,7 @@
                                 "gapVar": "spacing/2",
                                 "fixedWidth": 308,
                                 "paddingYVar": "spacing/6",
-                                "strokeVar": "Fl\u00e4che/line",
+                                "strokeVar": "Fl\u00e4che/lineStrong",
                                 "strokeSides": "TOP",
                                 "children": [
                                   {
@@ -5729,7 +5729,7 @@
                                 "gapVar": "spacing/2",
                                 "fixedWidth": 308,
                                 "paddingYVar": "spacing/6",
-                                "strokeVar": "Fl\u00e4che/line",
+                                "strokeVar": "Fl\u00e4che/lineStrong",
                                 "strokeSides": "TOP",
                                 "children": [
                                   {
@@ -5765,7 +5765,7 @@
                                 "gapVar": "spacing/2",
                                 "fixedWidth": 308,
                                 "paddingYVar": "spacing/6",
-                                "strokeVar": "Fl\u00e4che/line",
+                                "strokeVar": "Fl\u00e4che/lineStrong",
                                 "strokeSides": "TOP",
                                 "children": [
                                   {
@@ -5952,7 +5952,7 @@
                                 "radiusVar": "border/radius/card",
                                 "clip": true,
                                 "fillVar": null,
-                                "strokeVar": "Fl\u00e4che/line",
+                                "strokeVar": "Fl\u00e4che/lineStrong",
                                 "children": [
                                   {
                                     "kind": "text",
@@ -6745,7 +6745,7 @@
                                 "radiusVar": "border/radius/card",
                                 "clip": true,
                                 "fillVar": null,
-                                "strokeVar": "Fl\u00e4che/line",
+                                "strokeVar": "Fl\u00e4che/lineStrong",
                                 "children": [
                                   {
                                     "kind": "text",
@@ -7238,7 +7238,7 @@
                                 "radiusVar": "border/radius/card",
                                 "clip": true,
                                 "fillVar": null,
-                                "strokeVar": "Fl\u00e4che/line",
+                                "strokeVar": "Fl\u00e4che/lineStrong",
                                 "children": [
                                   {
                                     "kind": "text",
@@ -8029,7 +8029,7 @@
                                 "radiusVar": "border/radius/card",
                                 "clip": true,
                                 "fillVar": null,
-                                "strokeVar": "Fl\u00e4che/line",
+                                "strokeVar": "Fl\u00e4che/lineStrong",
                                 "children": [
                                   {
                                     "kind": "text",
@@ -13453,7 +13453,7 @@
                         "kind": "rect",
                         "name": "Trennlinie",
                         "fixedHeight": 1,
-                        "fillVar": "Fl\u00e4che/line"
+                        "fillVar": "Fl\u00e4che/lineStrong"
                       },
                       {
                         "kind": "frame",
